@@ -229,6 +229,10 @@ li {
   }
 }
 
+.first_road {
+  margin-top: -70px;
+}
+
 .roadmap {
   margin: 0;
   margin-top: 100px;
@@ -257,6 +261,7 @@ li {
   background-repeat: no-repeat;
   /* filter: blur(20px); */
 }
+
 /* 
 .leaves {
   width: 100%;
@@ -476,5 +481,9 @@ li {
 
   .btn-link {
     padding: 0px !important;
+  }
+
+  .first_road {
+    margin-top: 0px;
   }
 }

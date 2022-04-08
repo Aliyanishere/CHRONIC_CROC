@@ -174,9 +174,9 @@ function App() {
             <div className="col-lg-4 text_col text-center">
               <h1 className='text-white fw-boler my-4'>GO LIVE IN <br /> <span className='span_text'>{days}:{get_hours}:{get_min}:{get_sec}</span> </h1>
             </div>
-            <div className='' style={{ marginTop: "-130px" }} >
+            {/* <div className='' style={{ marginTop: "-130px" }} >
               <button className='for_box_shadow btn btn-dark live_btn'>Mint</button>
-            </div>
+            </div> */}
             <div className="col-lg-4">
             </div>
           </div>
@@ -285,17 +285,17 @@ function App() {
         <div className='m-2 d-flex align-items-center flex-column bg-transparent'>
           <p className='mb-0 roadmap_head fw-bold' style={{ color: "#02cc82" }}>Roadmap</p>
 
-          <div className="road-line-parent d-flex flex-column mb-5">
+          <div className="road-line-parent d-flex flex-column mb-5 mt-5">
             <div className="row mx-0 mt-5 ms-lg-5 ms-md-5 future" style={{ backgroundColor: "transparent" }}>
               <div className="col-lg-6 col-12" style={{ backgroundColor: "transparent" }}>
               </div>
               <div className="col-lg-6 col-12 d-flex align-items-start padding-start-road  " style={{ backgroundColor: "transparent" }}>
                 {/* <span className='road-line mt-4'></span> */}
-                <div className="d-flex flex-column" style={{marginTop: "-20px"}}>
+                <div className="d-flex flex-column first_road">
                   <p className='text-start mb-0' style={{ backgroundColor: "transparent", color: "#02cc82" }}>40% - Member prize giveaways</p>
                   <p className='mb-0 text-start col-lg-10 col-12 mb-1'>All members will get raffle tickets to enter to win prizes such as an illadelph bong
                     potentially worth up to $5,000!!</p>
-                  <p className='mb-0 text-start col-lg-8 col-12' style={{ backgroundColor: "transparent", color: "#02cc82" }}>50% - Drop more Zooted NFTs that will have specific roles/powers in the club</p>
+                  <p className='mb-0 text-start col-lg-8 col-12 mt-4' style={{ backgroundColor: "transparent", color: "#02cc82" }}>50% - Drop more Zooted NFTs that will have specific roles/powers in the club</p>
                   <p className='mb-0 text-start col-12'>We are here to stay and want this community to grow and forever change! At this mark
                     we will drop more completely zoinked characters that will hold special powers such as
                     being able to create their own weed strain, mutate, and breed with other character</p>
